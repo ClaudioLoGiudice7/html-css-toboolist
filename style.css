@@ -19,6 +19,10 @@ body{
     background-color: #ffffff;
 }
 
+#logo{
+    padding-top: 5px;
+}
+
 .title {
     font-size: 50px;
     vertical-align: top;
@@ -41,13 +45,82 @@ img{
     padding: 20px;
     display: inline-block;
     width: 1000px;
+    border-radius: 5px;
 }
 
-.first-span {
+.first-button {
     background-color: #47ADF1;
     margin-left: 10%;
+    border: none;
+    padding: 9px;
+    color: #ffffff;
+    border-radius: 5px;
 }
 
-.second-span{
+.second-button{
     background-color: rgb(255, 255, 255);
+    color: #a0a1a1;;
+    border-color: #a0a1a1;
+    padding: 7px;
+    border-radius: 5px;
+}
+
+.second-container {
+    background-color: rgb(255, 255, 255);
+    margin-top: 3px;
+    margin-left: 170px;
+    margin-bottom: 15px;
+    padding: 20px;
+    display: inline-block;
+    width: 1000px;
+}
+
+details {
+    display: inline;
+    padding-top: 20px;
+    padding-left: 100px;
+}
+
+b{
+    font-size: 24px;
+}
+
+.writing-block{
+    background-color: #45ABEA;
+    color: #ffffff;
+    padding: 7px;
+    font-size: 11px;
+    border-radius: 10px;
+}
+
+summary{
+    line-height: 40px;
+}
+
+.check{
+    color: #62C1AA;
+}
+
+.cross{
+    color: #EC665F;
+}
+
+.writing-block.viola{
+    background-color: #9C72E4;
+}
+
+.writing-block.verde-acqua{
+    background-color: #64C0A9
+}
+
+.writing-block.arancione{
+    background-color: #F29E33
+}
+
+.writing-block.rosa{
+    background-color: #D762A0;
+}
+
+.writing-block.verde-scuro{
+    background-color: #B0C926;
 }
